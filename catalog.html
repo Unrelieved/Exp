@@ -50,10 +50,13 @@
                 <h2 class="catalog-header__title">Фильтр:</h2>
                 <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                 <div class="price">
+                    <fieldset>
                     <legend class="price__title">Цена:</legend>
+                    </fieldset>
 
                 </div>
                 <div class="manufact-menu">
+                        <fieldset>
                         <legend class="manufact-menu__title">Производители:</legend>
                         <ul class="manufact-menu-list">
                             <li class="manufact-menu-list__item">
@@ -77,19 +80,22 @@
                                     <label for="filter-hitachi">Hitachi</label>
                             </li>
                         </ul>
+                        </fieldset>
                 </div>
                 <div class="power-menu">
+                    <fieldset>
                     <legend class="power-menu__title">Питание:</legend>
                     <ul class="power-menu-list">
                         <li class="power-menu-list__item">
                             <input type="radio" name="power-supply" value="Rechargeable" id="filter-rechargeable">
-                            <label for="filter-recharge">Аккумуляторные</label>
+                            <label for="filter-rechargeable">Аккумуляторные</label>
                         </li>
                         <li class="power-menu-list__item">
                             <input type="radio" name="power-supply" value="network" id="filter-network">
                             <label for="filter-network">Сетевые</label>
                         </li>
                     </ul>
+                    </fieldset>
                 </div>
                 <button type="submit">Показать</button>
                 </form>
@@ -196,13 +202,13 @@
                     <div class="catalog-pages">
                         <ul class="catalog-pages-list">
                             <li class="catalog-pages-list__item">
-                                <button type="button">1</button>
+                                <a class="catalog-page-list__link" href="#">1</a>
                             </li>
                             <li class="catalog-pages-list__item">
-                                    <button type="button">2</button>
+                                <a class="catalog-page-list__link" href="#">2</a>
                             </li>
                             <li class="catalog-pages-list__item">
-                                    <button type="button">3</button>
+                                <a class="catalog-page-list__link" href="#">3</a>
                             </li>
                         </ul>
                         <a class="next-page" href ="#">Следующая</a>
