@@ -1,0 +1,303 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Cuprum" , "Arial" , "sans-serif";
+    font-style: normal;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
+
+    background-color: #ffffff;  
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    background-color: #f3f7f8;
+}
+
+.user-menu {
+    background-color: #293449;
+}
+
+.logo {
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+
+    background-color: #ee3643;
+}
+
+.user-menu__link {
+    font-size: 17px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.user-menu__link--order {
+    background-color: #63a63e;
+}
+
+.shop-name {
+    font-family: "Cuprum" , "Arial" , "sans-serif";
+    font-style: Italic;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ee3643;
+}
+
+.shop-info__item {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #32425c;
+}
+
+.shop-info__item--adress {
+    font-size: 18px;
+    line-height: 24px;
+    color: #f3f7f9;
+}
+
+.shop-info__link {
+    font-size: 21px;
+    line-height: 21px;
+    color: #ee3643;
+}
+
+.user-navigation {
+    list-style: none;
+}
+
+.user-navigation a {
+    font-size: 21px;
+    line-height: 21px;
+    color: #000000;
+
+}
+
+
+.user-navigation__link {
+    background-color: #ffffff;
+    font-weight: 700;
+}
+
+.main-navigation {
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff;
+
+    background-color: #32425c;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation__link {
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+.site-navigation__link:hover {
+    background-color: #293449;
+}
+
+.site-navigation__link:focus {
+    background-color: #1d2739;
+}
+
+.offers-list {
+    list-style: none;
+}
+
+.offers-list__title {
+    font-family: "Cuprum" , "Arial" , "sans-serif";
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.offers-list__link {
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.offers-list__item--materials {
+    background-color: #ffbf47;
+}
+
+.offers-list__item--tools {
+    background-color: #3bbce3;
+}
+
+.offers-list__item--techs {
+    background-color: #dc91d8;
+}
+
+.offers-list__item--discounts {
+    background-color: #8ed78f;
+}
+
+.offers-list__item--delivery {
+    background-color: #ffc047;
+}
+
+.offers-slides {
+    list-style: none;
+}
+
+.offers-slides__title {
+    font-family: "Cuprum" , "Arial" , "sans-serif";
+    font-style: Bold;
+    font-size: 36px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.offers-slides__text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.offers-slides__link {
+    background-color: #ee3643;
+}
+
+.popular-header {
+    background-color: #f9f5f0;
+}
+
+.popular-header__title {
+    font-size: 30px;
+    line-height: 30px;
+    color: #32425c;
+    text-transform: uppercase;
+}
+
+.popular-popup-list {
+    list-style: none;
+}
+
+.popular-popup-list__text {
+    font-family: "PTSans" , "Arial" , "sans-serif";
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.old-price {
+    font-family: "PTSans" , "Arial" , "sans-serif";
+    font-style: Bold;
+    font-size: 17px;
+    line-height: 18px;
+    color: #a9a9a9;
+    text-decoration: line-through;
+}
+
+.new-price {
+    font-family: "PTSans" , "Arial" , "sans-serif";
+    font-style: Bold;
+    font-size: 17px;
+    line-height: 18px;
+    color: #ffffff;
+
+    background-color: #ee3643;
+}
+
+.pop-manufacts {
+    list-style: none;
+}
+
+.hat-title {
+    font-size: 30px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.services-text {
+    font-family: "PTSans" , "Arial" , "sans-serif";
+    font-style: normal;
+    font-size: 13px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.services-slide__title {
+    font-size: 36px;
+    line-height: 36px;
+    color: #32425c;
+}
+
+.button__link {
+    font: inherit;
+    font-size:  14px;
+    line-height: 18px;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #ee3643;
+    border: none;
+}
+
+.services {
+    background-color: #f4f7f9;
+}
+
+.shop-footer {
+    background-color: #32425c;
+}
+
+.site-navigation-footer {
+    list-style:none;
+}
+
+.site-navigation-footer__link {
+    font-size: 18px;
+    line-height: 24px;
+    color: #f3f7f9;
+}
+
+.site-navigation-footer--menu .site-navigation-footer__link {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffda96;
+}
+
+.site-navigation-footer__link:hover {
+    text-decoration: underline;
+}
+
+.site-navigation-footer__link:focus {
+    opacity: 0.5;
+}
+
+.social-footer {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+
+    background-color: #293449;
+}
+
+.social-footer__link {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffd180;
+
+}
+
