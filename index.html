@@ -12,7 +12,7 @@
         <header class="main-header">
             <div class="user-menu">
                 <a class="logo" href="#">ТЕХНОМАРТ</a>
-                <a class="user-menu__link" href="#">Поиск:</a>
+                <a class="user-menu__link user-menu__link--search" href="#">Поиск:</a>
                 <a class="user-menu__link" href="#">Закладки: 0</a>
                 <a class="user-menu__link" href="#">Корзина: 0</a>
                 <a class="user-menu__link user-menu__link--order" href="#">Оформить заказ</a>
@@ -43,23 +43,23 @@
             <section class="offers">
                 <h2 class="visually-hidden">Предложения</h2>
                 <ul class="offers-list">
-                    <li class="offers-list__item--materials">
+                    <li class="offers-list__item offers-list__item--materials">
                         <h3 class="offers-list__title">Материалы</h3>
                         <a class="offers-list__link" href="#">На любой вкус</a>
                     </li>
-                    <li class="offers-list__item--tools">
+                    <li class="offers-list__item offers-list__item--tools">
                         <h3 class="offers-list__title">Инструмент</h3>
                         <a class="offers-list__link" href="#">На все случаи</a>
                     </li>
-                    <li class="offers-list__item--techs">
+                    <li class="offers-list__item offers-list__item--techs">
                         <h3 class="offers-list__title">Техника</h3>
                         <a class="offers-list__link" href="#">Для стройки</a>
                     </li>
-                    <li class="offers-list__item--discounts">
+                    <li class="offers-list__item offers-list__item--discounts">
                         <h3 class="offers-list__title">СКИДКИ 50%</h3>
                         <a class="offers-list__link" href="#">На 350 товаров</a>
                     </li>
-                    <li class="offers-list__item--delivery">
+                    <li class="offers-list__item offers-list__item--delivery">
                         <h3 class="offers-list__title">Доставка</h3>
                         <a class="offers-list__link" href="#">Бесплатно</a>
                     </li>
@@ -71,7 +71,7 @@
                             <p class="offers-slides__text">Соседям на радость!</p>
                         </li>
                     </ul>
-                    <a class="button__link" href="catalog.html">Открыть каталог</a>
+                    <a class="button button--catalog" href="catalog.html">Открыть каталог</a>
                 </div>
                 <div class="offers-perf-slides">
                     <ul class="offers-slides">
@@ -80,14 +80,14 @@
                             <p class="offers-slides__text">Настоящие мужские игрушки</p>
                         </li>
                     </ul>
-                    <a class="button__link" href="catalog.html">Открыть каталог</a>
+                    <a class="button button--catalog" href="catalog.html">Открыть каталог</a>
                 </div>
             </section>
             
             <section class="pop-goods">
                 <header class="popular-header">
                     <h2 class="popular-header__title">Популярные товары:</h2>
-                    <a class="button__link button__link--goods" href="#">Все популярные товары</a>
+                    <a class="button button--goods" href="#">Все популярные товары</a>
                 </header>
                 <ul class="popular-popup-list">
                     <li class="popular-popup-list__item">
@@ -96,8 +96,8 @@
                         <p class="old-price">32 500 Р.</p>
                         <p class="new-price">25 500 Р.</p>
                         <div class="popular-popup">
-                            <a class="popular-popup__link" href="#">Купить</a>
-                            <a class="popular-popup__link" href="#">В закладки</a>
+                                <a class="popular-popup popular-popup__link--buy" href="#">Купить</a>
+                                <a class="popular-popup popular-popup__link--bookmarks" href="#">В закладки</a>
                         </div>
                     </li>
                     <li class="popular-popup-list__item">
@@ -106,8 +106,8 @@
                         <p class="old-price">22 500 Р.</p>
                         <p class="new-price">15 500 Р.</p>
                         <div class="popular-popup">
-                            <a class="popular-popup__link" href="#">Купить</a>
-                            <a class="popular-popup__link" href="#">В закладки</a>
+                                <a class="popular-popup popular-popup__link--buy" href="#">Купить</a>
+                                <a class="popular-popup popular-popup__link--bookmarks" href="#">В закладки</a>
                         </div>
                     </li>
                     <li class="popular-popup-list__item">
@@ -116,8 +116,8 @@
                         <p class="old-price">30 500 Р.</p>
                         <p class="new-price">25 500 Р.</p>
                         <div class="popular-popup">
-                            <a class="popular-popup__link" href="#">Купить</a>
-                            <a class="popular-popup__link" href="#">В закладки</a>
+                                <a class="popular-popup popular-popup__link--buy" href="#">Купить</a>
+                                <a class="popular-popup popular-popup__link--bookmarks" href="#">В закладки</a>
                         </div>
                     </li>
                     <li class="popular-popup-list__item">
@@ -125,8 +125,8 @@
                         <h3 class="popular-popup-list__text">Перфоратор BOSCH BFG 2000</h3>
                         <p class="new-price">12 500 Р.</p>
                         <div class="popular-popup">
-                            <a class="popular-popup__link" href="#">Купить</a>
-                            <a class="popular-popup__link" href="#">В закладки</a>
+                                <a class="popular-popup popular-popup__link--buy" href="#">Купить</a>
+                                <a class="popular-popup popular-popup__link--bookmarks" href="#">В закладки</a>
                         </div>
                     </li>
                 </ul>
@@ -135,46 +135,46 @@
             <section class="pop-manufact">
                 <header class="popular-header">
                     <h2 class="popular-header__title">Популярные производители:</h2>
-                    <a class="button__link button__link--goods" href="#">Все производители</a>
+                    <a class="button button--manufacts" href="#">Все производители</a>
                 </header>
                 <ul class="pop-manufacts">
-                    <li>
-                        <a class="pop-manufacts__link" href="#">
+                    <li class="pop-manufacts-list__item">
+                        <a class="pop-manufacts-list__link" href="#">
                           <img src="images/bosch-logo.png" width="220" height="145" alt="BOSCH"> 
                         </a>
                     </li>
-                    <li>
-                        <a class="pop-manufacts__link" href="#">
+                    <li class="pop-manufacts-list__item">
+                        <a class="pop-manufacts-list__link" href="#">
                             <img src="images/makita-logo.png" width="220" height="145" alt="MAKITA">
                         </a>
                     </li>
-                    <li>
-                        <a class="pop-manufacts__link" href="#">
+                    <li class="pop-manufacts-list__item">
+                        <a class="pop-manufact-lists__link" href="#">
                             <img src="images/dewalt-logo.png" width="220" height="145" alt="DeWALT">
                         </a>
                     </li>
-                    <li>
-                        <a class="pop-manufacts__link" href="#">
+                    <li class="pop-manufacts-list__item">
+                        <a class="pop-manufacts-list__link" href="#">
                             <img src="images/interskol-logo.png" width="220" height="145" alt="Интерскол">
                         </a>
                     </li>
-                    <li>
-                        <a class="pop-manufacts__link" href="#">
+                    <li class="pop-manufacts-list__item">
+                        <a class="pop-manufacts-list__link" href="#">
                             <img src="images/hitachi-logo.png" width="220" height="145" alt="Hitachi">
                         </a>
                     </li>
-                    <li>
-                        <a class="pop-manufacts__link" href="#">
+                    <li class="pop-manufacts-list__item">
+                        <a class="pop-manufacts-list__link" href="#">
                             <img src="images/lg-logo.png" width="220" height="145" alt="LG">
                         </a>
                     </li>
-                    <li>
-                        <a class="pop-manufacts__link" href="#">
+                    <li class="pop-manufacts-list__item">
+                        <a class="pop-manufacts-list__link" href="#">
                             <img src="images/aeg-logo.png" width="220" height="145" alt="AEG">
                         </a>
                     </li>
-                    <li>
-                        <a class="pop-manufacts__link" href="#">
+                    <li class="pop-manufacts-list__item">
+                        <a class="pop-manufacts-list__link" href="#">
                             <img src="images/metabo-logo.png" width="220" height="145" alt="Metabo">
                         </a>
                     </li>
@@ -182,8 +182,8 @@
             </section>
 
             <section class="services">
-                <h2 class="hat-title">Сервисы</h2>
-                <p class="services-text">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+                <h2 class="main-title">Сервисы</h2>
+                <p class="main-text">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
                 </p>
                 <div class="services-scroll">
                     <ul class="services-scroll-button">
@@ -198,30 +198,30 @@
                         </li>
                     </ul>
                 </div>
-                <div class="services-slide">
+                <div class="services-slide-delivery">
                     <h2 class="services-slide__title">ДОСТАВКА</h2>
-                    <p class="services-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
+                    <p class="main-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
                     Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
                 </div>
-                <div class="services-slide">
+                <div class="services-slide-guarantee">
                     <h2 class="services-slide__title">ГАРАНТИЯ</h2>
-                    <p class="services-text">Если купленный у нас товар поломается или заискрит, 
+                    <p class="main-text">Если купленный у нас товар поломается или заискрит, 
                         а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. 
                         Дом уж восстановите как-нибудь сами.</p>
                 </div>
-                <div class="services-slide">
+                <div class="services-slide-credit">
                     <h2 class="services-slide__title">КРЕДИТ</h2>
-                    <p class="services-text">Залезть в долговую яму стало проще! 
+                    <p class="main-text">Залезть в долговую яму стало проще! 
                     Кредитные консультанты придут вам на помощь.</p>
-                    <a class="button__link button__link--application" href="#">Отправить заявку</a>
+                    <a class="button button--application" href="#">Отправить заявку</a>
                 </div>
             </section>
 
             <section class="company">
-                <h2 class="hat-title">Компания "Техномарт"</h2>
-                <p class="services-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.    
+                <h2 class="main-title">Компания "Техномарт"</h2>
+                <p class="main-text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.    
                 </p>
-                <p class="services-text">Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+                <p class="main-text">Мы можем доставить ваш товар в самые отдаленные точки России!<br>
                 Техномарт работает со многими транспортными компаниями:
                 </p>
             <div class="partners">
@@ -236,29 +236,29 @@
                         ЖелДорЭкспедиция
                     </li>
                 </ul>
-                <a class="button__link button__link--company" href="#">Подробнее о компании</a>
+                <a class="button button--company" href="#">Подробнее о компании</a>
             </div>
-                <h2 class="hat-title">Контакты</h2>
-                <p class="services-text">Вы можете забрать товар сами,заехав в наш офис:</p>
+                <h2 class="main-title">Контакты</h2>
+                <p class="main-text">Вы можете забрать товар сами,заехав в наш офис:</p>
                 <h2 class="visually-hidden">Как до нас добраться</h2>
                 <a class="contacts-map">
                     <img src="images/map.png" width="300" height="158" alt="Офис компании по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
                 </a>
-                <a class="button__link button__link--map" href="#">Заблудились? Пишите нам!</a>
+                <a class="button button--map" href="#">Заблудились? Пишите нам!</a>
                 <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-                    <p class="appointment-item">
-                    <label for="appointment-name">Ваше имя:</label>
-                    <input id="appointment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+                    <p class="appointment-form__filed">
+                    <label class="appointment-form__label" for="appointment-name">Ваше имя:</label>
+                    <input class="appointment-form__input" id="appointment-name" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
                 </p>
-                    <p class="appointment-item">
-                    <label for ="appointment-email">Ваш e-mail:</label>
-                    <input id="appointment-email" type="email" name="email" value="" placeholder="email@example.com">
+                    <p class="appointment-form__filed">
+                    <label class="appointment-form__label" for ="appointment-email">Ваш e-mail:</label>
+                    <input class="appointment-form__input" id="appointment-email" type="email" name="email" value="" placeholder="email@example.com">
                 </p>
-                    <p class="appointment-item">
-                    <label for="appointment-text">Текст письма:</label>
-                <input id="appointment-text" type="text" name ="text" value="" placeholder="В свободной форме">
+                    <p class="appointment-form__filed">
+                    <label class="appointment-form__label" for="appointment-text">Текст письма:</label>
+                    <input class="appointment-form__input" id="appointment-text" type="text" name ="text" value="" placeholder="В свободной форме">
                 </p>
-                <button class="button__link button__link--form" type="submit">Отправить</button>
+                <button class="button button--form" type="submit">Отправить</button>
                 </form>
             </section>
 
