@@ -10,40 +10,46 @@
     </head>
     <body>
         <header class="main-header">
-            <div class="user-menu">
-                <a class="logo" href="#">ТЕХНОМАРТ</a>
-                <a class="user-menu__link user-menu__link--search" href="#">Поиск:</a>
-                <a class="user-menu__link" href="#">Закладки: 0</a>
-                <a class="user-menu__link user-menu__link--basket" href="#">Корзина: 10</a>
-                <a class="user-menu__link user-menu__link--order" href="#">Оформить заказ</a>
-            </div>
-            <div class="shop-info">
-                <p class="shop-name">Интернет-магазин строительных материалов и инструментов для ремонта</p>
-                <a class="shop-info__link" href="#">+7 (812) 555-05-55</a>
-                <p class="shop-info__item">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-                 <div class="user-navigation">
-                    <a class="user-navigation__name" href="#">Равшан Джамшутович</p>
-                    <ul class="user-navigation">
-                         <li><a class="user-navigation__link--catalog" href="#">Мои заказы</a></li>
-                         <li><a class="user-navigation__link--catalog" href="#">Личный кабинет</a></li>
-                    </ul>
-                 </div>
-            </div>
-            <div class="container">
-            <nav class="main-navigation">
-                <ul class="site-navigation">
-                    <li><a class="site-navigation__link" href="#">Главная</a></li>
-                    <li><a class="site-navigation__link" href="#">Компания</a></li>
-                    <li><a class="site-navigation__link" href="catalog.html">Каталог</a></li>
-                    <li><a class="site-navigation__link" href="#">Новости</a></li>
-                    <li><a class="site-navigation__link" href="#">Спецпредложения</a></li>
-                    <li><a class="site-navigation__link" href="#">Доставка</a></li>
-                    <li><a class="site-navigation__link" href="#">Контакты</a></li>
-                </ul>
-            </nav>
-        </div>
+                <div class="user-menu">
+                        <div class="container user-menu__container">
+                            <a class="logo" href="#">ТЕХНОМАРТ</a>
+                            <a class="user-menu__link user-menu__link--search" href="#">Поиск:</a>
+                            <a class="user-menu__link" href="#">Закладки: 0</a>
+                            <a class="user-menu__link user-menu__link--basket" href="#">Корзина: 10</a>
+                            <a class="user-menu__link user-menu__link--order" href="#">Оформить заказ</a>
+                        </div>
+                </div>
+                <div class="shop-info">
+                        <div class="container">
+                            <div class="shop-info__container">
+                                <p class="shop-info__name">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+                                <div class="shop-info__contacnts">
+                                    <a class="shop-info__link" href="#">+7 (812) 555-05-55</a>
+                                    <p class="shop-info__item">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                                </div>
+                                <div class="user-navigation user-navigation__catalog">
+                                <a class="user-navigation__name" href="#">Равшан Джамшутович</p>
+                                    <ul class="user-navigation">
+                                         <li><a class="user-navigation__link--catalog" href="#">Мои заказы</a></li>
+                                         <li><a class="user-navigation__link--catalog" href="#">Личный кабинет</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        <nav class="main-navigation">
+                            <ul class="site-navigation">
+                                <li><a class="site-navigation__link" href="#">Главная</a></li>
+                                <li><a class="site-navigation__link" href="#">Компания</a></li>
+                                <li><a class="site-navigation__link" href="catalog.html">Каталог</a></li>
+                                <li><a class="site-navigation__link" href="#">Новости</a></li>
+                                <li><a class="site-navigation__link" href="#">Спецпредложения</a></li>
+                                <li><a class="site-navigation__link" href="#">Доставка</a></li>
+                                <li><a class="site-navigation__link" href="#">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
         </header>
-        <main class="container">
+        <main>
+        <div class="container">
             <div class="bread-crumps">
                 <ul class="bread-crumps-list">
                     <li class="bread-crumps-list__item">
@@ -58,8 +64,11 @@
                 </ul>
             </div>
             <h2 class="popular-header__title">Перфораторы</h2>
-            <section class="catalog-menu">
-                <h2 class="catalog-menu__title">Фильтр:</h2>
+        </div>
+        <div class="container catalog-menu__container">
+            <section class="catalog-filter">
+                <div class="catalog-filter__container">
+                <h2 class="catalog-filter__title">Фильтр:</h2>
                 <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                 <div class="price">
                     <fieldset>
@@ -67,42 +76,42 @@
                         <input type="range">
                     </fieldset>
                 </div>
-                <div class="manufact-menu">
+                <div class="manufact-filter">
                         <fieldset>
                         <legend class="sorting-title">Производители:</legend>
-                        <ul class="sorting-menu">
-                            <li class="sorting-menu__item">
+                        <ul class="sorting-filter">
+                            <li class="sorting-filter__item">
                                 <input type="checkbox" name="bosch" id="filter-bosch">
                                 <label for="filter-bosch">Bosch</label>
                             </li>
-                            <li class="sorting-menu__item">
+                            <li class="sorting-filter__item">
                                     <input type="checkbox" name="interskol" id="filter-interskol">
                                     <label for="filter-interskol">Интерскол</label>
                             </li>
-                            <li class="sorting-menu__item">
+                            <li class="sorting-filter__item">
                                     <input type="checkbox" name="makita" id="filter-makita">
                                     <label for="filter-makita">Makita</label>
                             </li>
-                            <li class="sorting-menu__item">
+                            <li class="sorting-filter__item">
                                     <input type="checkbox" name="dewalt" id="filter-dewalt">
                                     <label for="filter-dewalt">DeWalt</label>
                             </li>
-                            <li class="sorting-menu__item">
+                            <li class="sorting-filter__item">
                                     <input type="checkbox" name="hitachi" id="filter-hitachi">
                                     <label for="filter-hitachi">Hitachi</label>
                             </li>
                         </ul>
                         </fieldset>
                 </div>
-                <div class="power-menu">
+                <div class="power-filter">
                     <fieldset>
                     <legend class="sorting-title">Питание:</legend>
-                    <ul class="sorting-menu">
-                        <li class="sorting-menu__item">
+                    <ul class="sorting-filter">
+                        <li class="sorting-filter__item">
                             <input type="radio" name="power-supply" value="Rechargeable" id="filter-rechargeable">
                             <label for="filter-rechargeable">Аккумуляторные</label>
                         </li>
-                        <li class="sorting-menu__item">
+                        <li class="sorting-filter__item">
                             <input type="radio" name="power-supply" value="network" id="filter-network">
                             <label for="filter-network">Сетевые</label>
                         </li>
@@ -111,24 +120,27 @@
                 </div>
                 <button class="button button-catalog--form" type="submit">Показать</button>
                 </form>
+            </div>
              </section>
 
              <section class="catalog-goods">
+                 <div class="catalog-goods__container">
                 <header class="catalog-header">
-                    <h2 class="catalog-menu__title">Сортировка:</h2>
-                    <ul class="catalog-menu-list">
-                        <li class="catalog-menu-list__item">
-                            <a class="catalog-menu-list__item--price" href="#">По цене</a>
+                    <h2 class="catalog-filter__title">Сортировка:</h2>
+                    <ul class="catalog-filter-list">
+                        <li class="catalog-filter-list__item">
+                            <a class="catalog-filter-list__item--price" href="#">По цене</a>
                         </li>
-                        <li class="catalog-menu-list__item">
-                            <a class="catalog-menu-list__item--type" href="#">По типу</a>
+                        <li class="catalog-filter-list__item">
+                            <a class="catalog-filter-list__item--type" href="#">По типу</a>
                         </li>
-                        <li class="catalog-menu-list__item">
-                            <a class="catalog-menu-list__item--function" href="#">По функционалу</a>
+                        <li class="catalog-filter-list__item">
+                            <a class="catalog-filter-list__item--function" href="#">По функционалу</a>
                         </li>
                     </ul>
                 </header>
-                    <ul class="popular-popup-list">
+                <div class="popular-popup__container">
+                    <ul class="popular-popup-list--catalog">
                         <li class="popular-popup-list__item">
                             <img src="images/bosch-3000.jpg" width="220" height="160" alt="BOSCH BFG 3000">
                             <h3 class="popular-popup-list__text">Перфоратор BOSCH BFG 3000</h3>
@@ -217,6 +229,7 @@
                                     </div>
                                 </li>            
                     </ul>
+                </div>
                     <div class="catalog-pages">
                         <ul class="catalog-pages">
                             <li class="catalog-pages__item">
@@ -232,55 +245,65 @@
                         <a class="catalog-pages__link--next" href ="#">Следующая</a>
                     </div>
              </section>
+             </div>
+            </div>
              <div class="services">
+                <div class="container">
              <h2 class="main-title">Пара слов о перфораторах</h2>
              <p class="main-text">Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления
                 отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут
                 выполнять функцию дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве
                 будут совмещены отбойный молоток и ударная дрель.
              </p>
+                </div>
              </div>
         </main>
         <footer class="main-footer">
-            <section class="shop-footer">
-            <div class="shop-info-footer">
-                <a class="logo logo-footer" href="#">ТЕХНОМАРТ</a>
-                <p class="shop-info__item shop-info__item--adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-                +7 (812) 555-05-55</p>
-            </div>
-            <div class="company-info-footer">
-                <ul class="site-navigation-footer">
-                    <li><a class="site-navigation-footer__link" href="#">Компания</a></li>
-                    <li><a class="site-navigation-footer__link" href="#">Новости</a></li>
-                    <li><a class="site-navigation-footer__link" href="catalogue.html">Каталог</a></li>
-                    <li><a class="site-navigation-footer__link" href="#">Доставка</a></li>
-                    <li><a class="site-navigation-footer__link" href="#">Контакты</a></li>
-                </ul>
-                <ul class="site-navigation-footer site-navigation-footer--menu">
-                    <li><a class="site-navigation-footer__link" href="#">Материалы</a></li>
-                    <li><a class="site-navigation-footer__link" href="#">Техника</a></li>
-                    <li><a class="site-navigation-footer__link" href="#">Инструмент</a></li>
-                    <li><a class="site-navigation-footer__link" href="#">Спецпредложения</a></li>
-                </ul>
-            </div>
-            </section>
-            <section class="social-footer">
-            <div class="social-footer">
-                <p class="social-footer__text">©2010-2017 Компания "Техномарт"<br>
-                Все права защищены
-                </p>
-                <ul class="social-footer-list">
-                    <li><a class="social-footer-list__button" href="#">Вконтакте</a></li>
-                    <li><a class="social-footer-list__button" href="#">Фэйсбук</a></li>
-                    <li><a class="social-footer-list__button" href="#">Инстраграм</a></li>
-                </ul>
-                <p class="social-footer__text">Обратная связь:</p>
-                <a class="social-footer__link" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-                <p class="social-footer__text">Разработано —</p>
-                <a class="social-footer__link" href="htmlacademy.ru">htmlacademy.ru</a>
-            </div>
-            </section>
-        </footer>
+                <section class="shop-footer">
+                    <div class="container shop-footer__container">
+                        <div class="shop-info-footer">
+                                <a class="logo logo-footer" href="#">ТЕХНОМАРТ</a>
+                                <p class="shop-info__item shop-info__item--adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
+                                +7 (812) 555-05-55</p>
+                            </div>
+                            <div class="company-info-footer">
+                                <ul class="site-navigation-footer">
+                                    <li><a class="site-navigation-footer__link" href="#">Компания</a></li>
+                                    <li><a class="site-navigation-footer__link" href="#">Новости</a></li>
+                                    <li><a class="site-navigation-footer__link" href="catalogue.html">Каталог</a></li>
+                                    <li><a class="site-navigation-footer__link" href="#">Доставка</a></li>
+                                    <li><a class="site-navigation-footer__link" href="#">Контакты</a></li>
+                                </ul>
+                                <ul class="site-navigation-footer site-navigation-footer--menu">
+                                    <li><a class="site-navigation-footer__link" href="#">Материалы</a></li>
+                                    <li><a class="site-navigation-footer__link" href="#">Техника</a></li>
+                                    <li><a class="site-navigation-footer__link" href="#">Инструмент</a></li>
+                                    <li><a class="site-navigation-footer__link" href="#">Спецпредложения</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </section>
+                <section class="social-footer">
+                    <div class="container social-footer__container">
+                        <p class="social-footer__text">©2010-2017 Компания "Техномарт"<br>
+                        Все права защищены
+                        </p>
+                        <ul class="social-footer-list">
+                            <li><a class="social-footer-list__button" href="#">Вконтакте</a></li>
+                            <li><a class="social-footer-list__button" href="#">Фэйсбук</a></li>
+                            <li><a class="social-footer-list__button" href="#">Инстраграм</a></li>
+                        </ul>
+                        <div>
+                            <p class="social-footer__text">Обратная связь:</p>
+                            <a class="social-footer__link" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+                        </div>
+                        <div>
+                            <p class="social-footer__text">Разработано —</p>
+                            <a class="social-footer__link" href="htmlacademy.ru">htmlacademy.ru</a>
+                        </div>
+                    </div>
+                </section>
+            </footer>
         <h2 class="main__title">Товар добавлен в корзину!</h2>
         <div class="popup-catalog">
             <ul class="catalog-popup">
