@@ -28,8 +28,12 @@
                         <p class="shop-info__item">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
                     </div>
                     <ul class="user-navigation">
-                        <li><a class="user-navigation__link" href="#">Войти</a></li>
-                        <li><a class="user-navigation__link" href="#">Регистрация</a></li>
+                        <li class="user-navigation-list">
+                            <a class="user-navigation-list__link user-navigation-list__link--login" href="#">Войти</a>
+                        </li>
+                        <li>
+                            <a class="user-navigation-list__link" href="#">Регистрация</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -67,7 +71,7 @@
                     </li>
                 </ul>
                 </div>
-                <div class="offers-list__slides">
+                <div class="offers-list__container">
                 <div class="offers-drills-slides">
                     <ul class="offers-slides">
                         <li class="offers-slides__item">
@@ -280,6 +284,7 @@
                 <a class="button button--map" href="#">Заблудились? Пишите нам!</a>
                 </div>
                     </div>
+                    <div class="appointment">
                 <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
                     <p class="appointment-form__filed">
                     <label class="appointment-form__label" for="appointment-name">Ваше имя:</label>
@@ -295,6 +300,7 @@
                 </p>
                 <button class="button button--form" type="submit">Отправить</button>
                 </form>
+            </div>
             </section>
 
         </main>
@@ -329,9 +335,18 @@
                     Все права защищены
                     </p>
                     <ul class="social-footer-list">
-                        <li><a class="social-footer-list__button" href="#">Вконтакте</a></li>
-                        <li><a class="social-footer-list__button" href="#">Фэйсбук</a></li>
-                        <li><a class="social-footer-list__button" href="#">Инстраграм</a></li>
+                        <li><a class="social-footer-list__button" href="#">
+                            <span class="visually-hidden">Вконтакте</span>
+                            
+                        </a></li>
+                        <li><a class="social-footer-list__button" href="#">
+                            <span class="visually-hidden">Фэйсбук</span>
+                              
+                        </a></li>
+                        <li><a class="social-footer-list__button" href="#">
+                            <span class="visually-hidden">Инстраграм</span>
+
+                        </a></li>
                     </ul>
                     <div>
                         <p class="social-footer__text">Обратная связь:</p>
