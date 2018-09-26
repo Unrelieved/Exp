@@ -13,7 +13,7 @@
             <div class="user-menu">
                 <div class="container user-menu__container">
                     <a class="logo" href="#">ТЕХНОМАРТ</a>
-                    <form class="user-menu__link user-menu__link--search" href="#">
+                    <form class="user-menu__link user-menu__link--search">
                         <svg class="user-menu__icon-search" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path fill="#ffffff" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
                         <input type="search" name="search" id="">
                     </form>
@@ -30,11 +30,11 @@
                         <a class="shop-info__link-tel" href="#">+7 (812) 555-05-55</a>
                         <p class="shop-info__item">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
                     </div>
-                    <ul class="user-navigation">
-                        <li class="user-navigation-list">
+                    <ul class="user-navigation-list">
+                        <li class="user-navigation-list__item">
                             <a class="user-navigation-list__link user-navigation-list__link--login" href="#">Войти</a>
                         </li>
-                        <li>
+                        <li class="user-navigation-list__item">
                             <a class="user-navigation-list__link" href="#">Регистрация</a>
                         </li>
                     </ul>
@@ -111,7 +111,7 @@
                 <div class="container">
                 <header class="popular-header">
                     <h2 class="popular-header__title">Популярные товары:</h2>
-                    <a class="button button--goods" href="#">Все популярные товары</a>
+                    <a class="button button--pop" href="#">Все популярные товары</a>
                 </header>
                 <ul class="popular-popup-list">
                     <li class="popular-popup-list__item">
@@ -161,7 +161,7 @@
                 <div class="container">
                     <header class="popular-header">
                         <h2 class="popular-header__title">Популярные производители:</h2>
-                        <a class="button button--manufacts" href="#">Все производители</a>
+                        <a class="button button--pop" href="#">Все производители</a>
                     </header>
                     <ul class="pop-manufacts">
                         <li class="pop-manufacts-list__item">
@@ -257,7 +257,7 @@
                     <div class="company__container">
                         <div class="company-info">
                 <h2 class="main-title">Компания "Техномарт"</h2>
-                <p class="main-text--company">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.    
+                <p class="main-text main-text--company">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.    
                 </p>
                 <p class="main-text">Мы можем доставить ваш товар в самые отдаленные точки России!<br>
                 Техномарт работает со многими транспортными компаниями:
@@ -286,6 +286,7 @@
                 </a>
                 <a class="button button--map" href="#">Заблудились? Пишите нам!</a>
                 </div>
+                    </div>
                     </div>
             </section>
 
@@ -338,15 +339,17 @@
                             </a>
                         </li>
                     </ul>
-                    <div>
+            <div class="social-footer-social-links">
+                <div class="social-footer-social-link-mail">
                         <p class="social-footer__text">Обратная связь:</p>
                         <a class="social-footer__link" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-                    </div>
-                    <div>
+                </div>
+                <div class="social-footer-social-link-site">
                         <p class="social-footer__text">Разработано —</p>
                         <a class="social-footer__link" href="htmlacademy.ru">htmlacademy.ru</a>
-                    </div>
                 </div>
+                </div>
+            </div>
             </section>
         </footer>
         <div class="popup-modal">
