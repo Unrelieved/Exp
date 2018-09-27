@@ -1470,16 +1470,11 @@ margin-bottom: 22px;
 
     text-align: center;
     color: #ffffff;
-    vertical-align: middle;
     text-transform: uppercase;
 
     background-color: #ee3643;
     border: none;
     border-radius: 2px;
-}
-
-.services__info {
-    
 }
 
 .button-services {
